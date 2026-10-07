@@ -13,4 +13,11 @@ def main():
   num1 = float(input("enter first number: "))
   num2 = float(input("enter second number: "))
 
-  print("/
+  print("/nChoose operation:")
+  print("1 - Addition")
+  print("2 - Subtraction")
+  print("3 - Multiplication")
+  print("4 - Division")
+  
+  choice = input("Enter choice: ")
+  
