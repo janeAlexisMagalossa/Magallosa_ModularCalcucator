@@ -1,3 +1,4 @@
+
 def add_numbers(num1, num2):
   return num1 + num2
 def subtract_numbers(num1, num2):
@@ -20,4 +21,22 @@ def main():
   print("4 - Division")
   
   choice = input("Enter choice: ")
+
+  if choice == "1":
+    result = add_numbers(num1, num2)
+    elif choice == "2":
+        result = subtract_numbers(num1, num2)
+    elif choice == "3":
+        result = multiply_numbers(num1, num2)
+    elif choice == "4":
+        result = divide_numbers(num1, num2)
+    else:
+        result = "Invalid choice selected."
+
+    print(f"\nResult: {result}")
+
+if __name__ == "__main__":
+    main()
+
+  
   
